@@ -1,0 +1,107 @@
+/* 登录 */
+body nav {
+  width: 100%;
+  text-align: center;
+  padding: calc(60rem / 64) 0;
+}
+nav span {
+  display: inline-block;
+  height: calc(30rem / 64);
+  border: 1px solid #dadada;
+  margin: 0 calc(30rem / 64);
+}
+nav a {
+  font-size: calc(32rem / 64);
+  color: #000;
+}
+nav a:last-child {
+  color: #8b8d8b;
+}
+/* 搜索框 */
+.search {
+  width: 100%;
+  padding: 0 calc(30rem / 64);
+  box-sizing: border-box;
+}
+.account {
+  width: 100%;
+  border: 1px solid #dadada;
+  height: calc(80rem / 64);
+  padding: 0 calc(20rem / 64);
+  box-sizing: border-box;
+  margin-bottom: calc(40rem / 64);
+}
+.account input {
+  width: 100%;
+  height: calc(76rem / 64);
+  border: none;
+  font-size: calc(26rem / 64);
+  color: #dadada;
+  font-weight: 400;
+}
+.verify {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+  height: calc(76rem / 64);
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  margin-bottom: calc(40rem / 64);
+}
+.verify img {
+  height: calc(56rem / 64);
+  padding: 0 calc(10rem / 64);
+  vertical-align: middle;
+}
+.verify a {
+  font-size: calc(28rem / 64);
+  color: #666;
+  line-height: calc(76rem / 64);
+}
+.verify a:last-child {
+  float: right;
+  width: calc(40rem / 64);
+  height: calc(40rem / 64);
+  background-image: url(../img/yanzheng.png);
+  background-position: 0px 169px;
+  margin: calc(20rem / 64);
+}
+.rest {
+  width: 100%;
+}
+.rest a:first-child {
+  display: inline-block;
+  width: calc(30rem / 64);
+  height: calc(30rem / 64);
+  border: calc(2rem / 64) solid #e5e5e5;
+  border-radius: calc(6rem / 64);
+}
+.rest a:first-child:hover {
+  background-image: url(../img/elements.png);
+  background-position: -32px -128px;
+}
+.rest a:last-child {
+  float: right;
+  color: #198ded;
+  font-size: calc(24rem / 64);
+}
+.rest span {
+  font-size: calc(24rem / 64);
+  margin-left: calc(20rem / 64);
+  color: #515151;
+}
+body footer {
+  width: 100%;
+  padding: 0 calc(30rem / 64);
+  box-sizing: border-box;
+  font-size: calc(24rem / 64);
+  text-align: center;
+  margin-top: calc(80rem / 64);
+}
+footer a:first-child {
+  display: block;
+  width: 100%;
+  height: calc(80rem / 64);
+  background-color: #198ded;
+  line-height: calc(80rem / 64);
+  color: #fff;
+  margin-bottom: calc(20rem / 64);
+}

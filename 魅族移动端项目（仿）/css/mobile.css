@@ -1,0 +1,139 @@
+/* 导航栏 */
+/* body {
+  height: 100%;
+} */
+body nav {
+  width: 100%;
+  height: calc(120rem / 64);
+  line-height: calc(120rem / 64);
+  padding: 0 calc(32rem / 64);
+  padding-right: calc(20rem / 64);
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+nav .search {
+  float: left;
+}
+nav .search img {
+  width: calc(28rem / 64);
+  height: calc(28rem / 64);
+}
+.nav-right {
+  float: right;
+}
+.nav-right img {
+  width: calc(34rem / 64);
+  height: calc(34rem / 64);
+}
+nav .logo {
+  float: left;
+  margin-left: calc(200rem / 64);
+}
+nav .logo img {
+  width: calc(120rem / 64);
+  height: calc(22rem / 64);
+}
+.nav-menu {
+  margin-left: calc(30rem / 64);
+  overflow: hidden;
+}
+.nav-menu img {
+  height: calc(24rem / 64);
+}
+/* 图片 */
+.ad {
+  width: 100%;
+}
+.ad img {
+  width: 100%;
+}
+/* 功能 */
+.function {
+  width: 100%;
+  display: flex;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding: calc(12rem / 64);
+  flex-wrap: wrap;
+}
+.function-two {
+  padding-top: 0;
+}
+.function a {
+  float: left;
+  flex: 1;
+  background-color: #fff;
+  height: calc(280rem / 64);
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: calc(40rem / 64);
+  box-sizing: border-box;
+}
+.function img {
+  width: calc(100rem / 64);
+  height: calc(100rem / 64);
+}
+.function a:first-child {
+  margin-right: calc(10rem / 64);
+}
+/* 客服 */
+.service {
+  width: 100%;
+  padding: calc(40rem / 64) 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.service a {
+  float: left;
+  height: calc(70rem / 64);
+  width: 46%;
+  margin-left: calc(20rem / 64);
+  background-color: #00b4ff;
+  line-height: calc(62rem / 64);
+  text-align: center;
+  color: #fff;
+  font-size: calc(28rem / 64);
+  border-radius: calc(40rem / 64);
+}
+.service img {
+  width: calc(34rem / 64);
+  height: calc(34rem / 64);
+  margin-right: calc(12rem / 64);
+}
+body footer {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0 calc(30rem / 64);
+  color: #999;
+  padding-bottom: calc(40rem / 64);
+}
+footer a {
+  color: #999;
+  line-height: 1.5;
+}
+.footer-left {
+  float: left;
+  width: calc(405rem / 64);
+}
+.footer-right {
+  float: right;
+  margin-top: calc(16rem / 64);
+}
+.footer-right img {
+  width: calc(30rem / 64);
+  height: calc(30rem / 64);
+  vertical-align: middle;
+}
+.footer-right i {
+  width: 0;
+  height: 0;
+  border-width: calc(12rem / 64);
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #cfcfcf;
+  position: relative;
+  top: calc(-20rem / 64);
+}

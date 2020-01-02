@@ -1,0 +1,43 @@
+/* 导航栏 */
+/* body {
+  height: 100%;
+} */
+body nav {
+  width: 100%;
+  height: calc(100rem / 64);
+  line-height: calc(100rem / 64);
+  padding: 0 calc(32rem / 64);
+  padding-right: calc(20rem / 64);
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+nav .search {
+  float: left;
+}
+nav .search img {
+  width: calc(28rem / 64);
+  height: calc(28rem / 64);
+}
+.nav-right {
+  float: right;
+}
+.nav-right img {
+  width: calc(24rem / 64);
+  height: calc(24rem / 64);
+}
+nav .logo {
+  float: left;
+  margin-left: calc(200rem / 64);
+}
+nav .logo img {
+  width: calc(120rem / 64);
+  height: calc(22rem / 64);
+}
+.nav-right .nav-menu {
+  margin-left: calc(30rem / 64);
+  overflow: hidden;
+}
+.nav-menu img {
+  height: calc(24rem / 64);
+  width: calc(30rem / 64);
+}
