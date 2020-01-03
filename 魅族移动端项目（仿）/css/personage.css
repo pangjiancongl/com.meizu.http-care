@@ -1,0 +1,122 @@
+body {
+  background-color: #eeeeee;
+  width: 100%;
+}
+body footer {
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  background-image: url(../img/chanpin06.jpg);
+  background-size: 100%;
+  height: calc(246rem / 64);
+  padding: 0 calc(16rem / 64);
+  padding-top: calc(20rem / 64);
+  box-sizing: border-box;
+  text-align: center;
+}
+footer img {
+  width: calc(140rem / 64);
+}
+footer a {
+  margin-top: calc(10rem / 64);
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+footer p {
+  font-size: calc(26rem / 64);
+  margin-top: calc(20rem / 64);
+}
+.left {
+  float: left;
+  font-size: calc(50rem / 64);
+}
+.right {
+  float: right;
+  font-size: calc(38rem / 64);
+}
+.indent {
+  width: 100%;
+  background-color: #fff;
+  margin-top: calc(10rem / 64);
+}
+.indent-title {
+  padding: calc(20rem / 64) calc(20rem / 64);
+  font-size: calc(26rem / 64);
+  box-sizing: border-box;
+}
+.indent-title {
+  border-bottom: 1px solid #f3f3f3;
+}
+.indent-title span:last-child {
+  float: right;
+  font-size: calc(22rem / 64);
+  color: #999999;
+}
+.indent-title img {
+  width: calc(14rem / 64);
+}
+.indent-content {
+  width: 100%;
+  overflow: hidden;
+}
+.indent-content div {
+  position: relative;
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: calc(20rem / 64);
+  margin-bottom: calc(16rem / 64);
+  color: #666666;
+  font-size: calc(22rem / 64);
+}
+.indent-content div img {
+  margin-bottom: calc(16rem / 64);
+  width: calc(40rem / 64);
+}
+.indent-content div::before {
+  content: "";
+  position: absolute;
+  top: calc(16rem / 64);
+  right: 0;
+  height: calc(50rem / 64);
+  border-right: 1px solid #dddddd;
+}
+.indent-content div:last-child::before {
+  border: 0;
+}
+.function {
+  margin: calc(20rem / 64) 0;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.function a {
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-top: calc(20rem / 64);
+  margin-bottom: calc(20rem / 64);
+}
+.function img {
+  width: calc(50rem / 64);
+  margin-bottom: calc(10rem / 64);
+}
+nav {
+  background-color: #fff;
+  width: 100%;
+}
+nav div {
+  width: 100%;
+  padding: calc(30rem / 64);
+  box-sizing: border-box;
+  border-bottom: 1px solid #f3f3f3;
+  overflow: hidden;
+}
+nav div span {
+  float: left;
+  font-size: calc(28rem / 64);
+}
+nav div img {
+  float: right;
+}
