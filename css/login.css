@@ -13,6 +13,7 @@ nav span {
 nav a {
   font-size: calc(32rem / 64);
   color: #000;
+  text-decoration: none;
 }
 nav a:last-child {
   color: #8b8d8b;

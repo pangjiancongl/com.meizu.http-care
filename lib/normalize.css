@@ -2,27 +2,102 @@
 
 /* Document
    ========================================================================== */
-   html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
- 
-   table{border-collapse:collapse;border-spacing:0;}
- 
-   i,cite,em,var,address,dfn{font-style:normal;}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
 
-   li{list-style:none;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-   h2,h3,h4,h5,h6{font-size:100%;}
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
 
-   pre,code,kbd,samp{font-family:inherit;}
-   
-   textarea{overflow:auto;resize:none;}
-   label{cursor:default;}
-   /* 让鼠标变成小手 */
-   a,button{cursor:pointer;}
-   
-   del,ins,s,a{text-decoration:none;}
-   body,textarea,input,button{font:12px/1.14 PingFangSC-Regular, Helvetica, "Droid Sans", "Microsoft YaHei", Arial, sans-serif;color:#333;outline:0;}
+li {
+  list-style: none;
+}
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
 
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label {
+  cursor: default;
+}
+/* 让鼠标变成小手 */
+a,
+button {
+  cursor: pointer;
+}
+
+del,
+ins,
+s,
+a {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button {
+  font: 12px/1.14 PingFangSC-Regular, Helvetica, "Droid Sans", "Microsoft YaHei",
+    Arial, sans-serif;
+  color: #333;
+  outline: 0;
+}
 
 /**
  * 1. Correct the line height in all browsers.
@@ -49,10 +124,21 @@ body {
  * Render the `main` element consistently in IE. 在IE中渲染main元素正常
  */
 
-header,footer,section,article,aside,nav,main,hgroup,address,figure,figcaption,menu,details{display:block;}
-
-
-
+header,
+footer,
+section,
+article,
+aside,
+nav,
+main,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -99,7 +185,15 @@ a {
   background-color: transparent;
   /* pointer是小手 */
   cursor: pointer;
+  text-decoration: none;
 }
+/* 
+a:visited,
+a:hover,
+a:active,
+a:link {
+  text-decoration: none;
+} */
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -199,7 +293,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -209,7 +304,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -278,8 +374,6 @@ legend {
 progress {
   vertical-align: baseline;
 }
-
-
 
 /**
  * 1. Add the correct box sizing in IE 10.
@@ -366,7 +460,6 @@ template {
 [hidden] {
   display: none;
 }
-
 
 * {
   /* 当手指按a标签 会出现蓝色的背景 让背景变透明 */
